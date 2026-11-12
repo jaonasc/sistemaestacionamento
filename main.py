@@ -12,5 +12,14 @@ Enunciado: Crie um programa para controlar a entrada e a saída de veículos em 
  Desafio extra (opcional): Calcular um valor fictício de estacionamento conforme a quantidade de horas informada na saída. 
 """
 
-capmax = 100
+capmax = 50
 veiculos = []
+
+
+while True:
+    print("===== GERENCIAMENTO DE ESTACIONAMENTO =====")
+    print("1 - Cadastrar Veículo ")
+    print("2 - Registrar Saída ")
+    print("3 - Listar Veículos")
+    print("4 - Listar Placas Disponíveis ")
+    print("5 - Sair")
